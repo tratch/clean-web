@@ -1,0 +1,27 @@
+html
+  head
+    title=title
+    link(href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', rel='stylesheet')
+  body
+    div.container
+      div.jumbotron
+        h1 Hello!
+
+
+        //Graphs!
+        .row
+          .col-md-12
+            canvas#emission-by-building-type-bar(width='800', height='600')
+
+        .row
+          .col-md-12
+            canvas#emission-by-building-type-radar(width='800', height='600')
+
+
+
+
+
+    script(type='text/javascript', src='/javascripts/jquery-2.1.3.min.js')
+    script(type='text/javascript', src='/javascripts/underscore-min.js')
+    script(type='text/javascript', src='/javascripts/Chart.min.js')
+    script(type='text/javascript', src='/javascripts/index.js')

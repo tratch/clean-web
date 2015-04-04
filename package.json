@@ -1,0 +1,15 @@
+{
+  "name": "cleanWeb",
+  "version": "1.0.0",
+  "description": "An sample project that shows you how to create visualizations with Apitite",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apitite, Inc.",
+  "license": "Creative Commons"
+}
